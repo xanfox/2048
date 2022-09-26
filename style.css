@@ -1,0 +1,47 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 400px;
+  background-color: #213547;
+  
+}
+
+.grid div {
+  width: 100px;
+  height: 100px;
+  background-color: chocolate;
+  font-size: 5em;
+  text-align: center;
+  font-weight: bold;
+}
